@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" fill="none">
+  <defs>
+    <linearGradient id="ufgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#003580"/>
+      <stop offset="100%" stop-color="#001f4d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Escudo simplificado da UFG -->
+  <path d="M18 8 L18 44 Q18 60 36 68 Q54 60 54 44 L54 8 Z"
+        fill="url(#ufgGrad)" stroke="#003580" stroke-width="1"/>
+  <!-- Faixa horizontal interna -->
+  <rect x="18" y="30" width="36" height="8" fill="#f5c400"/>
+  <!-- Letra U estilizada -->
+  <text x="36" y="27" text-anchor="middle" font-family="serif" font-size="14"
+        font-weight="bold" fill="white">U</text>
+  <!-- Estrela/adorno inferior -->
+  <text x="36" y="56" text-anchor="middle" font-family="serif" font-size="10"
+        font-weight="bold" fill="#f5c400">★</text>
+
+  <!-- Texto UFG -->
+  <text x="66" y="30" font-family="Georgia, 'Times New Roman', serif"
+        font-size="22" font-weight="700" fill="#003580" letter-spacing="2">UFG</text>
+  <!-- Texto completo -->
+  <text x="66" y="48" font-family="Arial, sans-serif"
+        font-size="8.5" fill="#003580" letter-spacing="0.5"
+        font-weight="400">Universidade Federal de Goiás</text>
+  <!-- Linha decorativa -->
+  <line x1="66" y1="52" x2="210" y2="52" stroke="#f5c400" stroke-width="1.5"/>
+  <text x="66" y="64" font-family="Arial, sans-serif"
+        font-size="7.5" fill="#555" letter-spacing="0.3">Fundada em 1960 · Goiânia, Goiás</text>
+</svg>

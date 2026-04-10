@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO & identidade -->
+  <title>LabFood – Laboratório de Controle e Qualidade de Alimentos | UFG</title>
+  <meta name="description" content="Laboratório da Universidade Federal de Goiás voltado a análises físico-químicas e microbiológicas de alimentos. Ensino, pesquisa e extensão." />
+
+  <!-- Open Graph – pré-visualização WhatsApp / redes sociais -->
+  <meta property="og:type"         content="website" />
+  <meta property="og:title"        content="LabFood – Qualidade e Inovação em Análise de Alimentos | UFG" />
+  <meta property="og:description"  content="Análises físico-químicas e microbiológicas com rigor científico. Servindo à comunidade acadêmica, pesquisadores e empresas." />
+  <!-- ⚠ Substitua pela URL pública real antes de publicar -->
+  <meta property="og:url"          content="https://labfood.ufg.br/" />
+  <meta property="og:image"        content="https://labfood.ufg.br/og-banner.svg" />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name"    content="LabFood UFG" />
+  <meta property="og:locale"       content="pt_BR" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="LabFood – Qualidade e Inovação em Análise de Alimentos | UFG" />
+  <meta name="twitter:description" content="Análises físico-químicas e microbiológicas com rigor científico." />
+  <meta name="twitter:image"       content="https://labfood.ufg.br/og-banner.svg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Fontes: Poppins (display + corpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================ NAVBAR ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <img src="/img/labfood-logo-full-branco.png" alt="Logo LabFood" class="nav-logo" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#sobre"         class="nav-link">Sobre</a>
+        <a href="#servicos"      class="nav-link">Serviços</a>
+        <a href="#equipe"        class="nav-link">Equipe</a>
+        <a href="#posgraduandos" class="nav-link">Pós-graduandos</a>
+        <a href="#parcerias"     class="nav-link">Parcerias</a>
+        <a href="#contato"       class="nav-link nav-cta">Contato</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================ HERO ============================================================ -->
+  <section class="hero" id="home">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="mono">Universidade Federal de Goiás</span>
+      </div>
+      <h1 class="hero-title reveal">
+        LabFood<br/>
+        <em>Qualidade e Inovação</em><br/>
+        em Análise de Alimentos
+      </h1>
+      <p class="hero-subtitle reveal">
+        Laboratório voltado a análises físico-químicas e microbiológicas, servindo à academia, à pesquisa e à indústria alimentar.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#sobre"   class="btn btn-primary">Conheça o laboratório</a>
+        <a href="#contato" class="btn btn-ghost">Solicitar orçamento</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="stat-number">2022</span><span class="stat-label">Fundação</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-number">12+</span><span class="stat-label">Tipos de análise</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-number">3</span><span class="stat-label">Frentes de atuação</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span class="mono">rolar para baixo</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ SOBRE ============================================================ -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="section-grid about-grid">
+        <div class="about-visual reveal">
+          <div class="about-card-bg">
+            <svg class="about-icon-large" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="27" y="8" width="10" height="4" rx="2" fill="currentColor"/>
+              <path d="M27 12 L22 34 Q17 50 13 58 Q11 63 16 63 L48 63 Q53 63 51 58 Q47 50 42 34 L37 12 Z" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M19 45 Q16 54 14 60 Q12 63 16 63 L48 63 Q52 63 50 60 Q48 54 45 45 Z" fill="currentColor" opacity="0.35"/>
+              <circle cx="28" cy="53" r="2" fill="white" opacity="0.5"/>
+              <circle cx="36" cy="57" r="1.5" fill="white" opacity="0.4"/>
+              <circle cx="42" cy="51" r="2.5" fill="white" opacity="0.4"/>
+            </svg>
+            <div class="about-badge-float"><span class="mono">est. 2022</span></div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <span class="section-label mono">Sobre o LabFood</span>
+          <h2 class="section-title">Ciência a serviço<br /><em>da qualidade alimentar</em></h2>
+          <p class="body-text">Criado em 2022, o LabFood é um laboratório da Universidade Federal de Goiás que atua nas áreas de <strong>ensino, pesquisa e extensão</strong>, com foco em análises físico-químicas e microbiológicas de alimentos.</p>
+          <p class="body-text">Nosso objetivo é facilitar o acesso a análises especializadas para alunos, pesquisadores e empresas, atuando em parceria com instituições públicas e privadas para promover inovação e segurança alimentar.</p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+              </svg>
+              <span class="pillar-label">Ensino</span>
+            </div>
+            <div class="pillar">
+              <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+              </svg>
+              <span class="pillar-label">Pesquisa</span>
+            </div>
+            <div class="pillar">
+              <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+              <span class="pillar-label">Extensão</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ PÚBLICO-ALVO ============================================================ -->
+  <section class="section section-tinted" id="publico">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label mono">Quem atendemos</span>
+        <h2 class="section-title">Público-<em>alvo</em></h2>
+      </div>
+      <div class="audience-grid">
+        <div class="audience-card reveal">
+          <div class="audience-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <h3>Comunidade Acadêmica</h3>
+          <p>Alunos, professores e pesquisadores da UFG e demais instituições de ensino superior.</p>
+        </div>
+        <div class="audience-card reveal">
+          <div class="audience-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 22V8l9-6 9 6v14H3z"/><path d="M9 22V12h6v10"/>
+            </svg>
+          </div>
+          <h3>Instituições de Ensino</h3>
+          <p>Universidades, institutos federais e centros de pesquisa que necessitam de suporte analítico especializado.</p>
+        </div>
+        <div class="audience-card reveal">
+          <div class="audience-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/>
+            </svg>
+          </div>
+          <h3>Empresas Públicas e Privadas</h3>
+          <p>Indústrias alimentícias, empresas de controle de qualidade e demais organizações do setor privado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ SERVIÇOS ============================================================ -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label mono">O que oferecemos</span>
+        <h2 class="section-title">Nossos <em>Serviços</em></h2>
+        <p class="section-desc">Análises especializadas com rigor científico e infraestrutura universitária de alto padrão.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-header">
+            <div class="service-icon-wrap">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 3h6M9 3v7L4 20h16L15 10V3"/><path d="M7 16h10"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Análises Físico-Químicas</h3>
+          </div>
+          <ul class="service-list">
+            <li><span class="list-dot"></span>Umidade</li>
+            <li><span class="list-dot"></span>Proteína</li>
+            <li><span class="list-dot"></span>Carboidratos</li>
+            <li><span class="list-dot"></span>Lipídios</li>
+            <li><span class="list-dot"></span>Fibra alimentar</li>
+            <li><span class="list-dot"></span>Cinzas (resíduo mineral)</li>
+          </ul>
+        </div>
+        <div class="service-card service-card--accent reveal">
+          <div class="service-header">
+            <div class="service-icon-wrap">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 2l10 10-5 5-10-10 5-5z"/><path d="M14.5 12.5l-8 8a2.121 2.121 0 003 3l8-8"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Análises Químicas Avançadas</h3>
+          </div>
+          <ul class="service-list">
+            <li><span class="list-dot"></span>Compostos orgânicos</li>
+            <li><span class="list-dot"></span>Compostos voláteis</li>
+            <li><span class="list-dot"></span>Análise de bebidas</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-header">
+            <div class="service-icon-wrap">
+              <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Outros Serviços</h3>
+          </div>
+          <ul class="service-list">
+            <li><span class="list-dot"></span>Identificação e rastreabilidade de compostos</li>
+          </ul>
+          <div class="service-cta">
+            <a href="#contato" class="btn btn-sm">Consultar disponibilidade →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ EQUIPE ============================================================ -->
+  <section class="section section-tinted" id="equipe">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label mono">Quem somos</span>
+        <h2 class="section-title">Nossa <em>Equipe</em></h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card team-card--lead reveal">
+          <div class="team-avatar"><span class="team-initials">TO</span></div>
+          <div class="team-info">
+            <span class="team-role mono">Coordenadora</span>
+            <h3 class="team-name">Profa. Dra. Tatianne Ferreira de Oliveira</h3>
+          </div>
+        </div>
+        <div class="team-card team-card--lead reveal">
+          <div class="team-avatar"><span class="team-initials">FS</span></div>
+          <div class="team-info">
+            <span class="team-role mono">Vice-coordenador</span>
+            <h3 class="team-name">Prof. Dr. Flávio Alves da Silva</h3>
+          </div>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-avatar team-avatar--tech"><span class="team-initials">CA</span></div>
+          <div class="team-info">
+            <span class="team-role mono">Técnica de Laboratório</span>
+            <h3 class="team-name">Camilla Alves Pereira Rodrigues</h3>
+          </div>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-avatar team-avatar--tech"><span class="team-initials">AA</span></div>
+          <div class="team-info">
+            <span class="team-role mono">Técnico de Laboratório</span>
+            <h3 class="team-name">Artur Fernandes Almeida</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ PÓS-GRADUANDOS ============================================================ -->
+  <section class="section" id="posgraduandos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label mono">Pesquisadores em formação</span>
+        <h2 class="section-title">Pós-<em>Graduandos</em></h2>
+        <p class="section-desc">Membros do LabFood em programas de pós-graduação — clique no nome para acessar o Currículo Lattes.</p>
+      </div>
+
+      <div class="pg-group reveal">
+        <h3 class="pg-group-title">
+          <svg class="pg-group-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+          Mestrandos
+        </h3>
+        <div class="pg-grid">
+          <div class="pg-card"><a href="https://lattes.cnpq.br/" target="_blank" rel="noopener" class="pg-name">Ana Carolina Souza Lima</a><span class="pg-area">Controle de qualidade em produtos lácteos</span></div>
+          <div class="pg-card"><a href="https://lattes.cnpq.br/" target="_blank" rel="noopener" class="pg-name">Bruno Henrique Tavares</a><span class="pg-area">Análise de compostos fenólicos em frutas do cerrado</span></div>
+          <div class="pg-card"><a href="https://lattes.cnpq.br/" target="_blank" rel="noopener" class="pg-name">Fernanda Cristina Moraes</a><span class="pg-area">Caracterização físico-química de grãos de soja</span></div>
+        </div>
+      </div>
+
+      <div class="pg-group reveal">
+        <h3 class="pg-group-title">
+          <svg class="pg-group-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="8" y="2" width="8" height="10" rx="2"/><path d="M12 12v4"/><path d="M6 18h12M6 22h12"/>
+          </svg>
+          Doutorandos
+        </h3>
+        <div class="pg-grid">
+          <div class="pg-card"><a href="https://lattes.cnpq.br/" target="_blank" rel="noopener" class="pg-name">Lucas Mendonça Pereira</a><span class="pg-area">Rastreabilidade de compostos voláteis em cafés especiais</span></div>
+          <div class="pg-card"><a href="https://lattes.cnpq.br/" target="_blank" rel="noopener" class="pg-name">Juliana Fonseca Rodrigues</a><span class="pg-area">Perfil lipídico de óleos vegetais por cromatografia</span></div>
+        </div>
+      </div>
+
+      <div class="pg-group reveal">
+        <h3 class="pg-group-title">
+          <svg class="pg-group-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+          </svg>
+          Pós-doutorandos
+        </h3>
+        <div class="pg-grid">
+          <div class="pg-card pg-card--postdoc"><a href="https://lattes.cnpq.br/" target="_blank" rel="noopener" class="pg-name">Dra. Ana Carolina de Jesus Oliveira</a><span class="pg-area">Inovação em métodos de análise microbiológica</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ PARCERIAS ============================================================ -->
+  <section class="section section-dark" id="parcerias">
+    <div class="container">
+      <div class="parcerias-content reveal">
+        <span class="section-label mono" style="color: var(--orange-light)">Colabore conosco</span>
+        <h2 class="section-title" style="color: #fff">Parcerias e <em>Projetos</em></h2>
+        <p class="body-text" style="color: rgba(255,255,255,0.7); max-width: 600px; margin: 0 auto 2rem;">
+          O LabFood está aberto a parcerias com empresas, instituições e pesquisadores. Juntos podemos avançar no desenvolvimento científico e na garantia de qualidade alimentar.
+        </p>
+        <div class="parcerias-cards">
+          <div class="parceria-item reveal">
+            <div class="parceria-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 11h2a2 2 0 012 2v6a2 2 0 01-2 2h-2M7 11H5a2 2 0 00-2 2v6a2 2 0 002 2h2"/><path d="M9 21h6M12 11V7m0 0a3 3 0 003-3M12 7a3 3 0 01-3-3"/>
+              </svg>
+            </div>
+            <h4>Parcerias Empresariais</h4>
+            <p>Convênios com empresas do setor alimentício para análises regulares, consultoria técnica e suporte à certificação de qualidade.</p>
+          </div>
+          <div class="parceria-item reveal">
+            <div class="parceria-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 20h.01M7 20v-4M12 20v-8M17 20V8M22 4v16"/>
+              </svg>
+            </div>
+            <h4>Projetos de Pesquisa</h4>
+            <p>Apoio a projetos com infraestrutura laboratorial, orientação técnica e coautoria em publicações científicas.</p>
+          </div>
+          <div class="parceria-item reveal">
+            <div class="parceria-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+            </div>
+            <h4>Projetos de Extensão</h4>
+            <p>Iniciativas voltadas à comunidade, capacitação técnica e suporte a pequenos produtores e cooperativas agroindustriais.</p>
+          </div>
+        </div>
+        <a href="#contato" class="btn btn-primary" style="margin-top: 2rem;">Propor parceria</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ CONTATO — sem formulário ============================================================ -->
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="contact-centered reveal">
+        <span class="section-label mono">Fale conosco</span>
+        <h2 class="section-title">Entre em <em>Contato</em></h2>
+        <p class="body-text contact-intro">
+          Solicite uma análise, tire dúvidas ou proponha uma parceria.<br class="br-desktop" />
+          Estamos prontos para colaborar com sua pesquisa ou projeto.
+        </p>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <span class="contact-card-label mono">E-mail</span>
+            <a href="mailto:labfood.agro@ufg.br" class="contact-card-value">labfood.agro@ufg.br</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <span class="contact-card-label mono">Localização</span>
+            <span class="contact-card-value">Universidade Federal de Goiás<br/>Goiânia, Goiás – Brasil</span>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <span class="contact-card-label mono">Atendimento</span>
+            <span class="contact-card-value">Segunda a Sexta<br/>08h – 18h</span>
+          </div>
+        </div>
+
+        <a href="mailto:labfood.agro@ufg.br" class="btn btn-primary btn-contact-main">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          Enviar e-mail para o LabFood
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ FOOTER ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logos">
+            <a href="#home" class="footer-logo-link">
+              <img src="/img//labfood-logo-full-branco.png" alt="Logo LabFood" class="footer-logo-labfood" />
+            </a>
+            <div class="footer-logos-divider"></div>
+            <img src="/img/ea-ufg.png" alt="Logomarca UFG" class="footer-logo-ufg" />
+          </div>
+          <p>Laboratório de Controle e Qualidade de Alimentos da Universidade Federal de Goiás.</p>
+        </div>
+        <div class="footer-nav">
+          <span class="footer-nav-title mono">Navegação</span>
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#posgraduandos">Pós-graduandos</a>
+          <a href="#parcerias">Parcerias</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <div class="footer-contact">
+          <span class="footer-nav-title mono">Contato</span>
+          <a href="mailto:labfood.agro@ufg.br">labfood.agro@ufg.br</a>
+          <span>Universidade Federal de Goiás</span>
+          <span>Goiânia, GO – Brasil</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="mono">© 2026 LabFood | UFG. Todos os direitos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante -->
+  <a href="#contato" class="fab" id="fab" title="Solicitar análise" aria-label="Solicitar análise">
+    <svg class="fab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+      <polyline points="22,6 12,13 2,6"/>
+    </svg>
+    <span class="fab-label">Contato</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

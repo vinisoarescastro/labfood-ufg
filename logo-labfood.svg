@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DA2E08"/>
+      <stop offset="100%" stop-color="#F38F04"/>
+    </linearGradient>
+    <linearGradient id="gradLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f87c5e"/>
+      <stop offset="100%" stop-color="#fbbf4a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo circular -->
+  <circle cx="100" cy="100" r="96" fill="url(#grad)" opacity="0.08"/>
+  <circle cx="100" cy="100" r="96" stroke="url(#grad)" stroke-width="2" fill="none"/>
+
+  <!-- Erlenmeyer / frasco de laboratório -->
+  <!-- gargalo -->
+  <rect x="85" y="38" width="30" height="10" rx="4" fill="url(#grad)"/>
+  <!-- corpo do frasco -->
+  <path d="M85 48 L78 100 Q68 135 60 155 Q57 162 65 165 L135 165 Q143 162 140 155 Q132 135 122 100 L115 48 Z"
+        fill="url(#grad)" opacity="0.15" stroke="url(#grad)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- líquido dentro -->
+  <path d="M72 130 Q68 148 63 160 Q60 165 65 165 L135 165 Q140 165 137 160 Q132 148 128 130 Z"
+        fill="url(#grad)" opacity="0.55"/>
+  <!-- bolhas -->
+  <circle cx="88" cy="148" r="4.5" fill="white" opacity="0.55"/>
+  <circle cx="105" cy="155" r="3" fill="white" opacity="0.4"/>
+  <circle cx="118" cy="145" r="5.5" fill="white" opacity="0.45"/>
+  <!-- reflexo no vidro -->
+  <path d="M80 60 Q78 85 76 110" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Grão de trigo / referência alimentar — lado direito -->
+  <ellipse cx="152" cy="68" rx="7" ry="13" fill="url(#gradLight)" transform="rotate(-35 152 68)" opacity="0.85"/>
+  <ellipse cx="160" cy="55" rx="6" ry="11" fill="url(#gradLight)" transform="rotate(-20 160 55)" opacity="0.7"/>
+  <ellipse cx="164" cy="80" rx="6" ry="11" fill="url(#gradLight)" transform="rotate(-50 164 80)" opacity="0.7"/>
+  <line x1="152" y1="80" x2="155" y2="95" stroke="url(#grad)" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Texto LF no centro do frasco -->
+  <text x="100" y="125" text-anchor="middle" font-family="Georgia, serif" font-size="22"
+        font-weight="700" fill="url(#grad)" letter-spacing="2">LF</text>
+</svg>
