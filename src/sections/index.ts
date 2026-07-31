@@ -1,0 +1,8 @@
+export { About } from './About'
+export { Audiences } from './Audiences'
+export { Contact } from './Contact'
+export { Graduates } from './Graduates'
+export { Hero } from './Hero'
+export { Partnerships } from './Partnerships'
+export { Services } from './Services'
+export { Team } from './Team'

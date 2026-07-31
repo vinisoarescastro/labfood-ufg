@@ -1,0 +1,78 @@
+/*
+ * Design tokens do LabFood.
+ * Única fonte de cores, tipografia, espaçamento e elevação do site.
+ */
+:root {
+  /* Marca: vermelho LabFood */
+  --color-brand-950: #2a0802;
+  --color-brand-900: #481003;
+  --color-brand-700: #8c1e05;
+  --color-brand-600: #c22907;
+  --color-brand-500: #da2e08;
+  --color-brand-400: #e85a37;
+  --color-brand-100: #fbddd4;
+  --color-brand-50: #fdf1ec;
+
+  /* Apoio: laranja LabFood */
+  --color-accent-500: #f38f04;
+  --color-accent-300: #fbbf4a;
+  --color-accent-100: #fef3d8;
+
+  /* Neutros quentes */
+  --color-ink: #241a15;
+  --color-text: #43392f;
+  --color-text-soft: #776a60;
+  --color-border: #ebe2da;
+  --color-border-strong: #ddd1c6;
+  --color-surface: #ffffff;
+  --color-bg: #fdfbf9;
+  --color-bg-tint: #faf4ee;
+
+  /* Texto sobre superfícies escuras */
+  --color-on-dark: #ffffff;
+  --color-on-dark-soft: rgba(255, 244, 238, 0.78);
+  --color-on-dark-faint: rgba(255, 244, 238, 0.14);
+
+  --gradient-brand: linear-gradient(120deg, #da2e08 0%, #e07a06 100%);
+
+  /* Tipografia */
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.25rem + 1.2vw, 2.125rem);
+  --text-2xl: clamp(1.9rem, 1.5rem + 2vw, 3rem);
+  --text-hero: clamp(2.25rem, 1.6rem + 3.4vw, 4.25rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-relaxed: 1.7;
+
+  /* Layout */
+  --container-max: 72rem;
+  --container-pad: clamp(1.25rem, 4vw, 2.5rem);
+  --header-height: 3.5rem;
+  --section-pad: clamp(4.5rem, 9vw, 7.5rem);
+
+  /* Raio e elevação */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.375rem;
+  --radius-full: 999px;
+
+  --shadow-sm: 0 1px 3px rgba(42, 8, 2, 0.07);
+  --shadow-md: 0 10px 30px -8px rgba(42, 8, 2, 0.14);
+  --shadow-lg: 0 24px 60px -16px rgba(42, 8, 2, 0.24);
+
+  /* Movimento */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 160ms;
+  --duration-base: 280ms;
+
+  /* Empilhamento */
+  --z-header: 100;
+  --z-drawer: 200;
+  --z-fab: 90;
+}

@@ -1,0 +1,18 @@
+.section {
+  padding-block: var(--section-pad);
+}
+
+.default {
+  background-color: var(--color-bg);
+}
+
+.tinted {
+  background-color: var(--color-bg-tint);
+}
+
+.dark {
+  background-color: var(--color-brand-950);
+  background-image:
+    radial-gradient(50rem 30rem at 85% 0%, rgba(218, 46, 8, 0.22), transparent 60%),
+    radial-gradient(40rem 26rem at 10% 100%, rgba(243, 143, 4, 0.12), transparent 60%);
+}

@@ -1,0 +1,92 @@
+/* Layout enxuto: mapa ao lado das informações, sem molduras extras. */
+.layout {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  align-items: stretch;
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+}
+
+.infoReveal {
+  height: 100%;
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 20rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-bg-tint);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.25rem;
+  height: 100%;
+  padding: 2rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Uma linha por informação: ícone + conteúdo, sem rótulos nem divisórias. */
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+a.row:hover {
+  color: var(--color-brand-600);
+}
+
+.rowIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  color: var(--color-brand-600);
+}
+
+.rowBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  min-width: 0;
+}
+
+.rowLabel {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.cta {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 56rem) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  /* No celular, as informações essenciais vêm antes do mapa. */
+  .mapCard {
+    order: 2;
+  }
+
+  .infoReveal {
+    order: 1;
+  }
+
+  .map {
+    min-height: 15rem;
+  }
+}
