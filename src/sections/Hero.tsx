@@ -30,7 +30,7 @@ export function Hero() {
 
         <Reveal delay={160}>
           <p className={styles.subtitle}>
-            O {site.name} é o laboratório da UFG dedicado a análises físico-químicas e microbiológicas, a serviço da
+            O {site.name} é o laboratório da UFG dedicado a análises físico-químicas, a serviço da
             comunidade acadêmica, da pesquisa e da indústria de alimentos.
           </p>
         </Reveal>

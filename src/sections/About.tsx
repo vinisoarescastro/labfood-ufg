@@ -26,8 +26,7 @@ export function About() {
           />
           <p className={styles.paragraph}>
             Criado em {site.foundedYear}, o {site.name} é o {site.fullName} da {site.institution}, com atuação em{' '}
-            <strong>ensino, pesquisa e extensão</strong> e foco em análises físico-químicas e microbiológicas de
-            alimentos.
+            <strong>ensino, pesquisa e extensão</strong> e foco em análises físico-químicas de alimentos.
           </p>
           <p className={styles.paragraph}>
             Nosso propósito é facilitar o acesso a análises especializadas para alunos, pesquisadores e empresas,

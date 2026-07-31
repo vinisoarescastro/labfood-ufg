@@ -26,7 +26,7 @@ Site institucional do **LabFood**, o Laboratório de Controle e Qualidade de Ali
 
 ## Sobre o site
 
-Este é o **portal de apresentação do LabFood**, laboratório criado em **2022** dentro da Universidade Federal de Goiás. O laboratório atua em três frentes — **ensino, pesquisa e extensão** — com foco em **análises físico-químicas e microbiológicas de alimentos**.
+Este é o **portal de apresentação do LabFood**, laboratório criado em **2022** dentro da Universidade Federal de Goiás. O laboratório atua em três frentes — **ensino, pesquisa e extensão** — com foco em **análises físico-químicas de alimentos**.
 
 O site funciona como uma **página única (one page)**: todo o conteúdo está em uma mesma tela, organizado em seções que você percorre rolando a página ou clicando no menu superior. Não é necessário criar conta, fazer login ou preencher cadastro para consultar qualquer informação.
 
@@ -122,7 +122,7 @@ Tela de abertura com a apresentação do laboratório — *"Qualidade e Inovaç�
 - **3** — frentes de atuação
 
 ### 2. Sobre
-Apresenta a história e a missão do LabFood: um laboratório criado em 2022 na UFG, voltado a análises físico-químicas e microbiológicas, cujo propósito é **facilitar o acesso a análises especializadas** para alunos, pesquisadores e empresas.
+Apresenta a história e a missão do LabFood: um laboratório criado em 2022 na UFG, voltado a análises físico-químicas, cujo propósito é **facilitar o acesso a análises especializadas** para alunos, pesquisadores e empresas.
 
 Destaca os **três pilares de atuação**:
 
